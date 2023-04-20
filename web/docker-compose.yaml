@@ -12,6 +12,8 @@ services:
     - catalogue
     - user
     - cart
+    - mysql
+    - shipping
   catalogue:
     image: catalogue:v1
     container_name: catalogue
