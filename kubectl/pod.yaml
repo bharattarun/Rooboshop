@@ -4,7 +4,7 @@ metadata:
   name: example-pod
 specs: 
   containers:
-  - name: nginx
+  - name: example-pod
     image: nginx
     ports:
     - containerPort: 80
